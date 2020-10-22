@@ -4,7 +4,7 @@
     {
       "country": {
         "name": "Spain",
-        "cid": "1",
+        "cid": 1,
         "cathlete": [
           {
             "athlete": {
@@ -22,15 +22,15 @@
         "medals": [
           {
             "gold": {
-              "number": "2",
+              "number": 2,
               "sport": "Football,Cycling"
             },
             "silver": {
-              "number": "4",
+              "number": 4,
               "sport": "Athletics,Cycling"
             },
             "bronze": {
-              "number": "1",
+              "number": 1,
               "sport": "Tennis"
             }
           }
@@ -40,7 +40,7 @@
     {
       "country": {
         "name": "France",
-        "cid": "2",
+        "cid": 2,
         "cathlete": [
           {
             "athlete": {
@@ -58,15 +58,15 @@
         "medals": [
           {
             "gold": {
-              "number": "3",
+              "number": 3,
               "sport": "Badminton, Archery"
             },
             "silver": {
-              "number": "1",
+              "number": 1,
               "sport": "Boxing, Fencing"
             },
             "bronze": {
-              "number": "0",
+              "number": 0,
               "sport": ""
             }
           }
@@ -76,7 +76,7 @@
     {
       "country": {
         "name": "Germany",
-        "cid": "3",
+        "cid": 3,
         "cathlete": [
           {
             "athlete": {
@@ -94,15 +94,15 @@
         "medals": [
           {
             "gold": {
-              "number": "1",
+              "number": 1,
               "sport": "Handball,Equestrian Eventings"
             },
             "silver": {
-              "number": "3",
+              "number": 3,
               "sport": "Beach Volleyball, Trampoline"
             },
             "bronze": {
-              "number": "1",
+              "number": 1,
               "sport": "Wrestling"
             }
           }
@@ -114,7 +114,7 @@
     {
       "discipline": {
         "name": "Football",
-        "id": "1",
+        "id": 1,
         "medals": {
           "gold": "Spain",
           "silver": "Germany",
@@ -125,7 +125,7 @@
     {
       "discipline": {
         "name": "Athletics",
-        "id": "2",
+        "id": 2,
         "medals": {
           "gold": "Sweden",
           "silver": "Russia",
@@ -136,7 +136,7 @@
     {
       "discipline": {
         "name": "Cycling",
-        "id": "3",
+        "id": 3,
         "medals": {
           "gold": "Estonia",
           "silver": "Russia",
@@ -147,7 +147,7 @@
     {
       "discipline": {
         "name": "Aerobics",
-        "id": "4",
+        "id": 4,
         "medals": {
           "gold": "Russia",
           "silver": "Netherlands",
@@ -156,27 +156,38 @@
       }
     }
   ],
-  "year": "2018",
+  "year": 2018,
   "country": "Germany",
   "city": "Munchen",
-  "startDate": "10.06.2018",
-  "endDate": "10.08.2018",
+  "startDate": {
+    "day": 10,
+    "month": 6,
+    "year": 2018
+  },
+  "endDate": {
+    "day": 10,
+    "month": 8,
+    "year": 2018
+  },
   "budget": "200.000.000 $",
   "broadcast": [
     {
       "channelName": "Sky Sports",
-      "avgViewers": "1000",
-      "region": "Europe"
+      "avgViewers": 1000,
+      "region": "Europe",
+      "isActive" : true
     },
     {
-      "channelName" : "Setanta Sports",
-      "avgViewers" : "200",
-      "region" : "Asia"
+      "channelName": "Setanta Sports",
+      "avgViewers": 200,
+      "region": "Asia",
+      "isActive": false
     },
     {
-      "channelName" : "Eurosport",
-      "avgViewers": "430",
-      "region" : "Europe"
+      "channelName": "Eurosport",
+      "avgViewers": 430,
+      "region": "Europe",
+      "isActive": true
     }
   ]
 }
