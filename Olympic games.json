@@ -17,7 +17,7 @@
       "medals": [
         {
           "type": "gold",
-          "number": 2,
+          "amount": 2,
           "sport": [
             "Football",
             "Cycling"
@@ -25,7 +25,7 @@
         },
         {
           "type": "silver",
-          "number": 4,
+          "amount": 4,
           "sport": [
             "Athletics",
             "Cycling"
@@ -33,7 +33,7 @@
         },
         {
           "type": "bronze",
-          "number": 1,
+          "amount": 1,
           "sport": "Tennis"
         }
       ]
@@ -54,7 +54,7 @@
       "medals": [
         {
           "type": "gold",
-          "number": 3,
+          "amount": 3,
           "sport": [
             "Badminton",
             "Archery"
@@ -62,7 +62,7 @@
         },
         {
           "type": "silver",
-          "number": 1,
+          "amount": 1,
           "sport": [
             "Boxing",
             "Fencing"
@@ -70,7 +70,7 @@
         },
         {
           "type": "bronze",
-          "number": 0,
+          "amount": 0,
           "sport": ""
         }
       ]
@@ -91,7 +91,7 @@
       "medals": [
         {
           "type": "gold",
-          "number": 1,
+          "amount": 1,
           "sport": [
             "Handball",
             "Equestrian",
@@ -100,7 +100,7 @@
         },
         {
           "type": "silver",
-          "number": 3,
+          "amount": 3,
           "sport": [
             "Beach",
             "Volleyball",
@@ -109,7 +109,7 @@
         },
         {
           "type": "bronze",
-          "number": 1,
+          "amount": 1,
           "sport": "Wrestling"
         }
       ]
