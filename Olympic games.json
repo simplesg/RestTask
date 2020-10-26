@@ -2,157 +2,154 @@
   "season": "Summer",
   "teams": [
     {
-      "country": {
-        "name": "Spain",
-        "cid": 1,
-        "cathlete": [
-          {
-            "athlete": {
-              "athleteName": "Lucas",
-              "athleteSurname": "DeVito"
-            }
-          },
-          {
-            "athlete": {
-              "athleteName": "Diego",
-              "athleteSurname": "Forlan"
-            }
-          }
-        ],
-        "medals": [
-          {
-            "gold": {
-              "number": 2,
-              "sport": "Football,Cycling"
-            },
-            "silver": {
-              "number": 4,
-              "sport": "Athletics,Cycling"
-            },
-            "bronze": {
-              "number": 1,
-              "sport": "Tennis"
-            }
-          }
-        ]
-      }
+      "countryName": "Spain",
+      "countryId": 1,
+      "countryAthlete": [
+        {
+          "athleteName": "Lucas",
+          "athleteSurname": "DeVito"
+        },
+        {
+          "athleteName": "Diego",
+          "athleteSurname": "Forlan"
+        }
+      ],
+      "medals": [
+        {
+          "type": "gold",
+          "number": 2,
+          "sport": [
+            "Football",
+            "Cycling"
+          ]
+        },
+        {
+          "type": "silver",
+          "number": 4,
+          "sport": [
+            "Athletics",
+            "Cycling"
+          ]
+        },
+        {
+          "type": "bronze",
+          "number": 1,
+          "sport": "Tennis"
+        }
+      ]
     },
     {
-      "country": {
-        "name": "France",
-        "cid": 2,
-        "cathlete": [
-          {
-            "athlete": {
-              "athleteName": "Frank",
-              "athleteSurname": "Malouda"
-            }
-          },
-          {
-            "athlete": {
-              "athleteName": "Thierry",
-              "athleteSurname": "Henry"
-            }
-          }
-        ],
-        "medals": [
-          {
-            "gold": {
-              "number": 3,
-              "sport": "Badminton, Archery"
-            },
-            "silver": {
-              "number": 1,
-              "sport": "Boxing, Fencing"
-            },
-            "bronze": {
-              "number": 0,
-              "sport": ""
-            }
-          }
-        ]
-      }
+      "countryName": "France",
+      "countryId": 2,
+      "countryAthlete": [
+        {
+          "athleteName": "Frank",
+          "athleteSurname": "Malouda"
+        },
+        {
+          "athleteName": "Thierry",
+          "athleteSurname": "Henry"
+        }
+      ],
+      "medals": [
+        {
+          "type": "gold",
+          "number": 3,
+          "sport": [
+            "Badminton",
+            "Archery"
+          ]
+        },
+        {
+          "type": "silver",
+          "number": 1,
+          "sport": [
+            "Boxing",
+            "Fencing"
+          ]
+        },
+        {
+          "type": "bronze",
+          "number": 0,
+          "sport": ""
+        }
+      ]
     },
     {
-      "country": {
-        "name": "Germany",
-        "cid": 3,
-        "cathlete": [
-          {
-            "athlete": {
-              "athleteName": "Toni",
-              "athleteSurname": "Kroos"
-            }
-          },
-          {
-            "athlete": {
-              "athleteName": "Mickael",
-              "athleteSurname": "Kimmich"
-            }
-          }
-        ],
-        "medals": [
-          {
-            "gold": {
-              "number": 1,
-              "sport": "Handball,Equestrian Eventings"
-            },
-            "silver": {
-              "number": 3,
-              "sport": "Beach Volleyball, Trampoline"
-            },
-            "bronze": {
-              "number": 1,
-              "sport": "Wrestling"
-            }
-          }
-        ]
-      }
+      "countryName": "Germany",
+      "countryId": 3,
+      "countryAthlete": [
+        {
+          "athleteName": "Toni",
+          "athleteSurname": "Kroos"
+        },
+        {
+          "athleteName": "Mickael",
+          "athleteSurname": "Kimmich"
+        }
+      ],
+      "medals": [
+        {
+          "type": "gold",
+          "number": 1,
+          "sport": [
+            "Handball",
+            "Equestrian",
+            "Eventings"
+          ]
+        },
+        {
+          "type": "silver",
+          "number": 3,
+          "sport": [
+            "Beach",
+            "Volleyball",
+            "Trampoline"
+          ]
+        },
+        {
+          "type": "bronze",
+          "number": 1,
+          "sport": "Wrestling"
+        }
+      ]
     }
   ],
   "disciplines": [
     {
-      "discipline": {
-        "name": "Football",
-        "id": 1,
-        "medals": {
-          "gold": "Spain",
-          "silver": "Germany",
-          "bronze": "Brazil"
-        }
+      "name": "Football",
+      "id": 1,
+      "medals": {
+        "gold": "Spain",
+        "silver": "Germany",
+        "bronze": "Brazil"
       }
     },
     {
-      "discipline": {
-        "name": "Athletics",
-        "id": 2,
-        "medals": {
-          "gold": "Sweden",
-          "silver": "Russia",
-          "bronze": "Poland"
-        }
+      "name": "Athletics",
+      "id": 2,
+      "medals": {
+        "gold": "Sweden",
+        "silver": "Russia",
+        "bronze": "Poland"
       }
     },
     {
-      "discipline": {
-        "name": "Cycling",
-        "id": 3,
-        "medals": {
-          "gold": "Estonia",
-          "silver": "Russia",
-          "bronze": "Belarus"
-        }
+      "name": "Cycling",
+      "id": 3,
+      "medals": {
+        "gold": "Estonia",
+        "silver": "Russia",
+        "bronze": "Belarus"
       }
     },
     {
-      "discipline": {
-        "name": "Aerobics",
-        "id": 4,
-        "medals": {
-          "gold": "Russia",
-          "silver": "Netherlands",
-          "bronze": "Hungary"
-        }
+      "name": "Aerobics",
+      "id": 4,
+      "medals": {
+        "gold": "Russia",
+        "silver": "Netherlands",
+        "bronze": "Hungary"
       }
     }
   ],
@@ -175,7 +172,7 @@
       "channelName": "Sky Sports",
       "avgViewers": 1000,
       "region": "Europe",
-      "isActive" : true
+      "isActive": true
     },
     {
       "channelName": "Setanta Sports",
